@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.serverAddField {
+  border: 2px solid black;
+  padding: 8px;
+  flex: 30%;
+}
+
+.serverList {
+  flex: 70%;
+  border: 2px dashed black;
+  margin: 0 2em 0 2em;
+  padding: 5px;
+}
+
+button {
+  margin: 5px 0 5px 0;
+}
