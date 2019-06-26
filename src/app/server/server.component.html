@@ -1,1 +1,10 @@
-<p>Server with ID {{ serverId }} is {{ getServerStatus() }}</p>
+<div class="serverEntry">
+  <p>Server {{ serverName }} with ID <span [ngClass]="{large: serverId > 5000}">{{ serverId }}</span> is <i
+      [ngStyle]="{color: getColor()}">{{ getServerStatus() }}</i></p>
+
+  <button class="btn btn-primary detailsButton" (click)="onToggleDetails()">
+    Details
+  </button>
+
+  <p *ngIf="detailsToggled">Nickname: {{ serverNickname }}</p>
+</div>

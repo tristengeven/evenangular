@@ -1,0 +1,22 @@
+.large {
+  background: black;
+  color: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.serverEntry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+
+  .detailsButton {
+    font-size: 0.8em;
+    margin-left: 2em;
+    padding: 3px 6px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
